@@ -25,3 +25,12 @@ def is_odd(num):
     returns: bool
     """
     return False
+
+def run():
+    num = int(input("Please enter a number: "))
+    even = is_even(num)
+    odd = is_odd(num)
+    print(f"{num} is_even: {even}, is_odd: {odd}")
+
+if __name__ == '__main__':
+    run()

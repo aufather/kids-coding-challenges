@@ -15,3 +15,11 @@ def evaluate(num1, operand, num2):
     returns: int
     """
     return 0
+
+def run():
+    num1, operand, num2 = input("Please enter an expression: ").split()
+    value = evaluate(num1, operand, num2)
+    print(f"{num1} {operand} {num2} = {value}")
+
+if __name__ == '__main__':
+    run()
