@@ -13,9 +13,18 @@ And then execute the following command to let python3 run the unit tests.
 python3 -m unittest discover --verbose
 ```
 
+Challenges can also be run interactively by the command
+
+```
+python3 <filename.py>
+```
+
+This should get user input and execute the challenge function and print its output.
+
 Here is the list of challenges in the order of increasing difficulty.
 
 * even_or_odd
 * arithmetic
 * leap_year
 * prime
+* fibonacci
